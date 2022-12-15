@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './resume.pdf';
+import Resume from './faisalresume.pdf';
 
 const Services = () => {
   // context
@@ -46,8 +46,8 @@ const Services = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            heading={"Web Application"}
+            detail={"Html5, Css3, JavaScript ES6, ReactJS, NodeJS, ExpressJS, TypeScript, NextJS, MongoDB, MySQL"}
           />
         </motion.div>
         {/* second card */}
@@ -58,8 +58,8 @@ const Services = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            heading={"Mobile Application"}
+            detail={"JavaScript, React Native, Expo CLI, NodeJS, ExpressJS, TypeScript, NextJS, MongoDB"}
           />
         </motion.div>
         {/* 3rd */}
@@ -70,10 +70,8 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"UI/UX"}
-            detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
-            }
+            heading={"Quality Asurance"}
+            detail={"Ensure Cross Browser Compatibility, Test for Responsiveness, Functionality Testing, Check for Broken Links, Ensure Security. Test Payment Gateways, Cookie Testing"}
             color="rgba(252, 166, 31, 0.45)"
           />
         </motion.div>

@@ -15,22 +15,22 @@ const Testimonial = () => {
     {
       img: profilePic1,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "faisalakram is an excellent communicator. He works very hard and quickly- when a change was requested, he would have it implemented or updated by the following day. I learned that it is important to be specific with changes or requests",
     },
     {
       img: profilePic2,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Great work! Will be collaborating again. Enjoyed working with you.",
     },
     {
       img: profilePic3,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Excellent , excellent , excellent . . . from start to finish, this is a top rated gig, well worthy as a Fiverr's choice, and the end product is excellent he worked alone and he do what developers doing and more , Thank you so much faisalakram you are the best",
     },
     {
       img: profilePic4,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "faisal was recommended to us by another business, and we are incredibly happy with the results. If you are thinking about having a solid and reliable front-end team, then faisal should be 1000% be apart of it. We will be back!",
     },
   ];
 
@@ -54,7 +54,7 @@ const Testimonial = () => {
           return (
             <SwiperSlide key={index}>
               <div className="testimonial">
-                <img src={client.img} alt="" />
+                <img src={client.img} alt=""/>
                 <span>{client.review}</span>
               </div>
             </SwiperSlide>

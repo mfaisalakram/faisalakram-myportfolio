@@ -37,6 +37,8 @@
 .n-list > ul :hover {
   color: var(--orange);
   cursor: pointer;
+  transform: rotate(-10deg);
+  transition: all .3s;
 }
 
 .n-button {
